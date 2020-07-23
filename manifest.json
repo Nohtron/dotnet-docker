@@ -10,6 +10,7 @@
       "name": "dotnet/core-nightly/runtime-deps",
       "readmePath": "README.runtime-deps.md",
       "mcrTagsMetadataTemplatePath": "eng/mcr-tags-metadata-templates/core-runtime-deps-tags.yml",
+      "productGroup": "DotNetCore",
       "images": [
         {
           "productVersion": "$(dotnet|2.1|product-version)",
@@ -408,6 +409,7 @@
       "name": "dotnet/nightly/runtime-deps",
       "readmePath": "README.runtime-deps.preview.md",
       "mcrTagsMetadataTemplatePath": "eng/mcr-tags-metadata-templates/runtime-deps-tags.yml",
+      "productGroup": "DotNet",
       "images": [
         {
           "productVersion": "$(dotnet|5.0|product-version)",
@@ -528,6 +530,7 @@
       "name": "dotnet/core-nightly/runtime",
       "readmePath": "README.runtime.md",
       "mcrTagsMetadataTemplatePath": "eng/mcr-tags-metadata-templates/core-runtime-tags.yml",
+      "productGroup": "DotNetCore",
       "images": [
         {
           "productVersion": "$(dotnet|2.1|product-version)",
@@ -992,6 +995,7 @@
       "name": "dotnet/nightly/runtime",
       "readmePath": "README.runtime.preview.md",
       "mcrTagsMetadataTemplatePath": "eng/mcr-tags-metadata-templates/runtime-tags.yml",
+      "productGroup": "DotNet",
       "images": [
         {
           "productVersion": "$(dotnet|5.0|product-version)",
@@ -1181,6 +1185,7 @@
       "name": "dotnet/core-nightly/aspnet",
       "readmePath": "README.aspnet.md",
       "mcrTagsMetadataTemplatePath": "eng/mcr-tags-metadata-templates/core-aspnet-tags.yml",
+      "productGroup": "DotNetCore",
       "images": [
         {
           "productVersion": "$(dotnet|2.1|product-version)",
@@ -1657,6 +1662,7 @@
       "name": "dotnet/nightly/aspnet",
       "readmePath": "README.aspnet.preview.md",
       "mcrTagsMetadataTemplatePath": "eng/mcr-tags-metadata-templates/aspnet-tags.yml",
+      "productGroup": "DotNet",
       "images": [
         {
           "productVersion": "$(dotnet|5.0|product-version)",
@@ -1858,6 +1864,7 @@
       "name": "dotnet/core-nightly/sdk",
       "readmePath": "README.sdk.md",
       "mcrTagsMetadataTemplatePath": "eng/mcr-tags-metadata-templates/core-sdk-tags.yml",
+      "productGroup": "DotNetCore",
       "images": [
         {
           "productVersion": "$(sdk|2.1|product-version)",
@@ -2237,6 +2244,7 @@
       "name": "dotnet/nightly/sdk",
       "readmePath": "README.sdk.preview.md",
       "mcrTagsMetadataTemplatePath": "eng/mcr-tags-metadata-templates/sdk-tags.yml",
+      "productGroup": "DotNet",
       "images": [
         {
           "productVersion": "$(sdk|5.0|product-version)",
@@ -2408,6 +2416,7 @@
       "name": "dotnet/nightly/monitor",
       "readmePath": "README.monitor.md",
       "mcrTagsMetadataTemplatePath": "eng/mcr-tags-metadata-templates/monitor-tags.yml",
+      "productGroup": "DotNetMonitor",
       "images": [
         {
           "productVersion": "$(monitor|5.0|product-version)",
